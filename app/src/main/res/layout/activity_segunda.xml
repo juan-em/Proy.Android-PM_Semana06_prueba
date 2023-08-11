@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segunda"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <TextView
+        android:id="@+id/suma"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="94dp"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/resta"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/producto"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="255dp"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/division"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="339dp"
+        android:layout_margin="10sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25sp"/>
+</LinearLayout>
